@@ -4,20 +4,21 @@ declaraciones
 propiedades
 valores*/
 @font-face {
-  font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?ku05pa');
-  src:  url('../fonts/icomoon.eot?ku05pa#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?ku05pa') format('truetype'),
-    url('../fonts/icomoon.woff?ku05pa') format('woff'),
-    url('../fonts/icomoon.svg?ku05pa#icomoon') format('svg');
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?ku05pa");
+  src: url("../fonts/icomoon.eot?ku05pa#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?ku05pa") format("truetype"),
+    url("../fonts/icomoon.woff?ku05pa") format("woff"),
+    url("../fonts/icomoon.svg?ku05pa#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"],
+[class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: "icomoon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -34,8 +35,8 @@ valores*/
   content: "\e9bd";
 }
 
-body{
-  font-family: 'oswald', sans-serif;
+body {
+  font-family: "oswald", sans-serif;
   margin: 0;
   background-color: #c3c3c3;
 }
@@ -44,46 +45,46 @@ h2,
 h3,
 h4,
 h5,
-h6{
-  font-family: 'fjalla one', sans-serif;
+h6 {
+  font-family: "fjalla one", sans-serif;
   font-weight: normal;
 }
-h1{
+h1 {
   font-size: 40px;
   line-height: 1.5;
-  letter-spacing: -.2;
-  color:white;
+  letter-spacing: -0.2;
+  color: white;
   margin: 0;
 }
-h1 strong{
-color:#982046;
+h1 strong {
+  color: #982046;
 }
-h2{
-  color:#982046;
+h2 {
+  color: #982046;
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 40px;
 }
-.hero{
+.hero {
   height: 500;
-  background-color:#c3c3c3;
+  background-color: #c3c3c3;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.hero-image{
+.hero-image {
   object-fit: cover;
   flex-wrap: wrap;
 }
 
-.portfolio{
+.portfolio {
   background-color: #c3c3c3;
   padding: 20px;
 }
-.project{
+.project {
   background: #d6d4d4;
-  border-color:gray;
+  border-color: gray;
   border-width: 1px;
   border-style: solid;
   border-radius: 10px;
@@ -96,93 +97,71 @@ h2{
 }
 .project-framework,
 .project-date,
-.project-url{
+.project-url {
   margin: 10px 0px;
 }
-.project-description{
+.project-description {
   font-size: 20px;
 }
-.project-title{
+.project-title {
   font-size: 30px;
   margin: 10px 0px;
 }
-.project-details{
+.project-details {
   width: 50%;
 }
-.project-imagecontainer{
+.project-imagecontainer {
   width: 500px;
 }
-.project-imagecontainer img{
+.project-imagecontainer img {
   max-width: 100%;
 }
-.header{
-  background-color:#c3c3c3;
-  color:white;
+.header {
+  background-color: #c3c3c3;
+  color: white;
   display: flex;
   height: 70px;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 ol,
-ul{
+ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.logo{
+.logo {
   align-self: center;
 }
-figure{
+figure {
   margin: 0;
 }
-.header a{
-  color:white;
+.header a {
+  color: white;
   text-decoration: none;
 }
-.menu{
+.menu {
   height: inherit;
 }
-.header ol{
+.header ol {
   display: flex;
   height: inherit;
 }
-.header ol li{
+.header ol li {
   height: inherit;
 }
-.header a{
+.header a {
   display: flex;
   align-items: center;
   height: inherit;
   padding: 0px 10px;
 }
-.experience{
-  background: #d6d4d4;
-  border-color:gray;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 10px;
-  margin: 10px;
-  margin-bottom: 15px;
-  padding: 20px;
-  display: flex;
-  align-items: center;
+
+.more-experiencie {
+  margin-left: 20px;
 }
-.experience-title{
-  font-size: 30px;
-  margin: 10px 0px;
-}
-.experience-details{
-  width: 500px;
-}
-.experience-description{
-  font-size: 20px;
-  text-align: left;
-}
-.more-experiencie{
-  margin-left:20px
-}
-.contact{
-  background-color:#982046;
+.contact {
+  background-color: #982046;
   height: 150;
   display: flex;
   align-items: center;
@@ -190,44 +169,35 @@ figure{
   flex-wrap: wrap;
 }
 
-.social-link{
+.social-link {
   display: inline-block;
   height: 50px;
   width: 50px;
   background-size: 50px 50px;
   margin: 0 10px;
 }
-.social-link.linkedin{
-background-image: url('../images/linkedin.svg');
+.social-link.linkedin {
+  background-image: url("../images/linkedin.svg");
 }
-.social-link.github{
-  background-image: url('../images/github.svg');
+.social-link.github {
+  background-image: url("../images/github.svg");
 }
-.footer{
-  background-color:#982046 ;
+.footer {
+  background-color: #982046;
   flex-wrap: wrap;
 }
-.form-email input{
+.form-email input {
   border-color: gray;
   border-radius: 5px;
   border-style: solid;
   padding: 5px 20px 5px 25px;
-  background-image: url('../images/envelope.svg');
+  background-image: url("../images/envelope.svg");
   background-size: 15px 15px;
   background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: 5px;
 }
-.form-email button{
-  display: block;
-  margin-top: 10px;
-  background: transparent;
-  color:white;
-  padding: 10px 0;
-  border-radius: 5px;
-  width: 100px;
-}
-.container{
+.container {
   max-width: 1000px;
   flex: 1;
   margin: 0 auto;
@@ -236,12 +206,12 @@ background-image: url('../images/linkedin.svg');
   align-items: inherit;
   height: inherit;
 }
-.html-video{
+.html-video {
   width: 100%;
   max-width: 100%;
   height: auto;
 }
-.burger-button{
+.burger-button {
   position: fixed;
   z-index: 4;
   width: 40px;
@@ -253,7 +223,39 @@ background-image: url('../images/linkedin.svg');
   text-align: center;
   left: 5px;
   top: 5px;
-  color:white;
+  color: white;
   font-size: 20px;
   display: none;
+}
+.experience {
+  background: #d6d4d4;
+  border-color: gray;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  margin: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+  display: flex;
+}
+.experience-title {
+  font-size: 30px;
+  margin: 10px 0px;
+}
+.experience-details {
+  width: 500px;
+}
+.experience-description {
+  font-size: 20px;
+}
+.vinculo {
+  width: 522px;
+  height: 259px;
+  margin-bottom: 30px;
+
+  object-fit: fill;
+  filter: brightness(70%);
+}
+.vinculo:hover {
+  filter: brightness(100%);
 }
