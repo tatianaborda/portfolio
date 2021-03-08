@@ -237,6 +237,8 @@ figure {
   margin-bottom: 15px;
   padding: 20px;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .experience-title {
   font-size: 30px;
@@ -249,8 +251,8 @@ figure {
   font-size: 20px;
 }
 .vinculo {
-  width: 522px;
-  height: 259px;
+  width: 900px;
+  height: 400px;
   margin-bottom: 30px;
 
   object-fit: fill;
